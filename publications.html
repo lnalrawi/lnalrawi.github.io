@@ -8,6 +8,21 @@
         <title>Professional Journey</title>
         <link rel="icon" type="image/png" href="Resources/Layth Int FULL.svg">
         <link rel="stylesheet" href="style.css">
+        <script>
+            function toggleText() {
+                var dots = document.getElementById("dots");
+                var moreText = document.getElementById("more");
+                var linkText = document.getElementById("readMoreLink");
+
+                if (moreText.style.display === "none") {
+                    moreText.style.display = "inline";
+                    linkText.innerHTML = "Read Less";
+                } else {
+                    moreText.style.display = "none";
+                    linkText.innerHTML = "Read More";
+                }
+            }
+        </script>
     </head>
     <body style="Background-color: #ffffff">
         <div style="height: 20px;"></div>
@@ -24,9 +39,9 @@
                     <!-- NAVIGATION MENUS -->
                         <div class="menu">
                             <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
                             <li><a href="professional-Journey.html">Professional Journey</a></li>
                             <li><a href="research.html">Research</a></li>
-                            <li><a href="teaching.html">Teaching</a></li>
                             <li style="background-color: #ffffff; border-radius: 5px;"><a href="publications.html">Publications</a></li>
                         </div>
                     </ul>  
@@ -46,94 +61,119 @@
                     <div class="col-lg" >
                         <ul class="publists">
                             <div class="row" >
-                                <div class="col-lg-10" >
+                                <div class="col-lg-3" ><img src="Resources/usability 1.png" width="260px" height="240px"></div>
+                                <div class="col-lg-7" >
                                     <li> Understanding the Relation between System Usability and End User Performance</li>
+                                    Conference: 2021 2nd International Informatics and Software Engineering Conference (IISEC) At: Ankara, Turkey<br>
+                                    <a href="https://ieeexplore.ieee.org/document/9672429">DOI: 10.1109/IISEC54230.2021.9672429</a>
+                                    <div id="abstract" style="margin-top: 20px;"><b><i>Abstract: </i></b><br>Web applications have been spreading everywhere. However, this may have a number of drawbacks mostly related to 
+                                        usability issues. Therefore, the investigation of usability problems continues to improve these applications. In this study, 
+                                        usability metrics are used for web application interface evaluation. The relation between web application usability and end user 
+                                        performance is investigated. Many studies have evaluated interface usability <span id="dots">...</span><span id="more" style="display:none;"> in a number of sectors; however, studies on oil and 
+                                        gas web applications have been limited. In this study, two sessions with twelve participants were designed to obtain data directly 
+                                        from end users. The sessions were observation and user feedback sessions. The findings indicate a potential relation between system 
+                                        usability and end user performance in terms of effectiveness and satisfaction.</span>
+                                        <a href="javascript:void(0);" onclick="toggleText()" id="readMoreLink">Read More</a></div>
                                 </div>
                                 <div class="col-lg-2" >
                                     <div style= "font-weight: 400; text-align: right;"> December 2021  </div>
                                 </div>
                             </div>
-                            <div class="row" >
-                                <div class="col-lg-10" >
-                                    <div >
-                                        Conference: 2021 2nd International Informatics and Software Engineering Conference (IISEC)<br>
-                                        <a href="https://ieeexplore.ieee.org/document/9672429">DOI: 10.1109/IISEC54230.2021.9672429</a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2" ></div>
-                            </div>
                             <hr width="50%" style="margin: 30px auto; ">
                             <div class="row" >
-                                <div class="col-lg-10" >
+                                <div class="col-lg-3" ><img src="Resources/usability2.png" width="260px" height="240px"></div>
+                                <div class="col-lg-7" >
                                     <li> Survey on Interface Usability Evaluation for Oil and Gas Critical Control Systems</li>
+                                    Conference: 2021 2nd International Informatics and Software Engineering Conference (IISEC)At: Ankara, Turkey<br>
+                                    <a href="https://ieeexplore.ieee.org/document/9672449">DOI: 10.1109/IISEC54230.2021.9672449</a>
+                                    <div id="abstract" style="margin-top: 20px;"><b><i>Abstract: </i></b><br>Usability is the key to develop and improve any system as it represents the direct contact point between users 
+                                        and machines. The use of the critical control system in the oil and gas industry is increasing. Due to the complexity of these 
+                                        systems, its interface usability should be assessed and developed periodically. In this research, the attributes that affect 
+                                        interface usability are identified. The usability of the Torque Turns System (TTS) <span id="dots">...</span><span id="more" style="display:none;">is evaluated since the periods of downtime is 
+                                        projected to increase in the field. There are some works similar to our work however none of them had collected data directly from 
+                                        real operators from the field. An evaluation of the torque turn system interface usability is performed using questionnaire related 
+                                        to common interface usability attributes including accessibility, learnability, effectiveness, memorability, efficiency, safety, 
+                                        cognitive load, understandability, and satisfaction. The findings indicate a potential weakness in terms of understandability and 
+                                        accessibility.</span>
+                                        <a href="javascript:void(0);" onclick="toggleText()" id="readMoreLink">Read More</a></div>
                                 </div>
                                 <div class="col-lg-2" >
                                     <div style= "font-weight: 400; text-align: right;"> December 2021  </div>
                                 </div>
                             </div>
-                            <div class="row" >
-                                <div class="col-lg-10" >
-                                    <div>
-                                        Conference: 2021 2nd International Informatics and Software Engineering Conference (IISEC)At: Ankara, Turkey<br>
-                                        <a href="https://ieeexplore.ieee.org/document/9672449">DOI: 10.1109/IISEC54230.2021.9672449</a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2" ></div>
-                            </div>
                             <hr width="50%" style="margin: 30px auto; ">
                             <div class="row" >
-                                <div class="col-lg-10" >
+                                <div class="col-lg-3" ><img src="Resources/elearning.jpg" width="260px" height="240px"></div>
+                                <div class="col-lg-7" >
                                     <li> Investigating the Human factors that impact e-learning systems in oil and gas industry</li>
+                                    Conference: 1ST VIRTUAL INTERNATIONAL CONFERENCE ON SCIENCES: VICS2021At: Al-Anbar, Iraq Volume: 2400, 
+                                    040003 (2022). AIP Conference Proceedings 2400(1):040003<br>
+                                    <a href="https://pubs.aip.org/aip/acp/article-abstract/2400/1/040003/2821354/Investigating-the-factors-that-impact-e-learning?redirectedFrom=fulltext">DOI: 10.1063/5.0112139</a>
+                                    <div id="abstract" style="margin-top: 20px;"><b><i>Abstract: </i></b><br>The use of digital media such as audio and video as a teaching media helps to achieve teaching goals better than 
+                                        following traditional teaching. It improves the engagement with the lecture and helps to deliver the education by lower cost and 
+                                        shorter time. Many companies use electronic Learning (e-learning) as an effective way to improve the knowledge, skills, and performance 
+                                        of their employees. For that, it became essential to <span id="dots">...</span><span id="more" style="display:none;">investigate the factors that affect the usage of these systems. Many researches 
+                                        have performed on the factors affecting e-learning systems in different sectors, but studies into e-learning systems for Oil and Gas 
+                                        industry is limited. In this study, the Oil and Gas sector is targeted since we have found the use of distance training and learning 
+                                        is projected to increase in this industry especially with current unprecedented circumstances and the lockdown that are associated 
+                                        with Coronavirus 2019 Disease (COVID-19). Human factors that influence e-learning systems for Oil and Gas companies are targeted and 
+                                        investigated. An investigation had conducted in order to gain insights into human factors. Questionnaires were collected from 76 
+                                        employees from the field. The findings show that learner’s education, system interface, computer literacy, organization support, and 
+                                        teaching methods were identified as factors affecting e-learning systems. This research will play an essential role in helping oil 
+                                        and gas companies to develop and improve the use of their e-learning systems.</span>
+                                        <a href="javascript:void(0);" onclick="toggleText()" id="readMoreLink">Read More</a></div>
                                 </div>
                                 <div class="col-lg-2" >
                                     <div style= "font-weight: 400; text-align: right;"> May 2021  </div>
                                 </div>
                             </div>
-                            <div class="row" >
-                                <div class="col-lg-10" >
-                                    <div >
-                                        Conference: 1ST VIRTUAL INTERNATIONAL CONFERENCE ON SCIENCES: VICS2021At: Al-Anbar, Iraq Volume: 2400, 
-                                        040003 (2022). AIP Conference Proceedings 2400(1):040003<br>
-                                        <a href="https://pubs.aip.org/aip/acp/article-abstract/2400/1/040003/2821354/Investigating-the-factors-that-impact-e-learning?redirectedFrom=fulltext">DOI: 10.1063/5.0112139</a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2" ></div>
-                            </div>
                             <hr width="50%" style="margin: 30px auto; ">
                             <div class="row" >
-                                <div class="col-lg-10" >
+                                <div class="col-lg-3" ><img src="Resources/AI.JPG" width="260px" height="240px"></div>
+                                <div class="col-lg-7" >
                                     <li> Comparative Analysis of Machine Learning Techniques using Customer Feedback Reviews of Oil and Gas Companies</li>
+                                    Conference: ICSIE 2020: 2020 9th International Conference on Software and Information Engineering At: Cairo, Egypt<br>
+                                    <a href="https://dl.acm.org/doi/10.1145/3436829.3436871" >DOI: 10.1145/3436829.3436871</a>
+                                    <div id="abstract" style="margin-top: 20px;"><b><i>Abstract: </i></b><br>Sentiment analysis is the process of computationally identifying and categorizing opinions from a piece of text to determine whether 
+                                    the writer’s attitude towards a practical topic, products or services is positive, negative or neutral. In this study, Machine 
+                                    Learning techniques are used to perform sentiment analysis on Oil and Gas customer feedback data. We present a comparison of 
+                                    different classification algorithms used for opinion mining,<span id="dots">...</span><span id="more" style="display:none;"> including Support Vector Machine (SVM), Naïve Bayes (NB), 
+                                    Instance Based Learning (IB3), Random Forest (RF), Partial Decision trees (PART), and Logit Boost (LB). Many studies have been 
+                                    performed on sentiment analysis in different sectors, but research into Oil and Gas customer feedback has been limited. Therefore, 
+                                    we have targeted a pathless sector, namely the Petroleum sector, where companies express their opinions towards specific products or 
+                                    services. Waikato Environment for Knowledge Analysis (WEKA) is used for experimental results. The WEKA environment is open source 
+                                    software entailing a collection of machine learning algorithms to solve data mining problems. The main aim of this study is to evaluate 
+                                    the efficiency of the above mentioned classifiers in terms of Precision, Recall, F-Measure and Accuracy. The findings of the comparison 
+                                    analysis indicate that the Naïve-Bayes classifier gives the best Accuracy of all classifiers. A small dataset could be considered as 
+                                    a limitation to our study due to the difficulty of gaining more datasets at the time of the research. However, this research will play 
+                                    a vital role for researchers in making decisions about the algorithm that they are going to use to solve their data mining problems.</span>
+                                    <a href="javascript:void(0);" onclick="toggleText()" id="readMoreLink">Read More</a></div>
                                 </div>
                                 <div class="col-lg-2" >
                                     <div style= "font-weight: 400; text-align: right;"> November 2020  </div>
                                 </div>
                             </div>
-                            <div class="row" >
-                                <div class="col-lg-10" >
-                                    <div>
-                                        Conference: ICSIE 2020: 2020 9th International Conference on Software and Information Engineering At: Cairo, Egypt<br>
-                                        <a href="https://dl.acm.org/doi/10.1145/3436829.3436871" >DOI: 10.1145/3436829.3436871</a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2" ></div>
-                            </div>
                             <hr width="50%" style="margin: 30px auto; ">
                             <div class="row" >
-                                <div class="col-lg-10" >
+                                <div class="col-lg-3" ><img src="Resources/HE.jfif" width="260px" height="240px"></div>
+                                <div class="col-lg-7" >
                                     <li> Investigating End User Errors in Oil and Gas Critical Control Systems</li>
+                                    Conference: ICCTA '20: 2020 6th International Conference on Computer and Technology Applications At: Ankara, Turkey<br>
+                                    <a href="https://dl.acm.org/doi/10.1145/3397125.3397135">DOI: 10.1145/3397125.3397135</a>
+                                    <div id="abstract" style="margin-top: 20px;"><b><i>Abstract: </i></b><br>System availability and efficiency are critical in the petroleum sector as any fault affecting those systems 
+                                        may negatively impact operations resources, such as money, human resources and time. Therefore, it has become important to 
+                                        investigate the reasons for such errors. In this study, human error has been targeted since a number of these errors is projected 
+                                        to increase in the sector. The factors that <span id="dots">...</span><span id="more" style="display:none;">affect end user behavior are investigated in addition to an evaluation of the relation 
+                                        between system availability and human behavior. An investigation has been performed following the descriptive methodology in order 
+                                        to gain insights into human error factors. Questionnaires related to software/hardware errors and errors due to the end user were 
+                                        collected from 81 site workers. The findings indicate a potential relation between end user behavior and system availability. 
+                                        Training, experience, education, work shifts, system interface, usage of memory sticks and I/O devices were identified as factors 
+                                        affecting end user behavior, hence system availability and efficiency.</span>
+                                        <a href="javascript:void(0);" onclick="toggleText()" id="readMoreLink">Read More</a></div>
                                 </div>
                                 <div class="col-lg-2" >
                                     <div style= "font-weight: 400; text-align: right;"> April 2020 </div>
                                 </div>
-                            </div>
-                            <div class="row" >
-                                <div class="col-lg-10" >
-                                    <div >
-                                        Conference: ICCTA '20: 2020 6th International Conference on Computer and Technology Applications At: Ankara, Turkey<br>
-                                        <a href="https://dl.acm.org/doi/10.1145/3397125.3397135">DOI: 10.1145/3397125.3397135</a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2" ></div>
                             </div>
                         </ul>
                     </div>

@@ -21,8 +21,9 @@ table td{font-size: 16px; text-align: left;  vertical-align: top; padding-bottom
   }
 }
 
-img:hover {
-  transform: scale(1.2); /* Increase the size of the image */
+.findMeOn img:hover {
+  transform: scale(1.2) !important; /* Increase the size of the image */
+  transition: transform 0.3s ease !important; /* Smooth transition */
 }
 
 h5{color: #0d294c; line-height: 150%; padding-top: 15px; padding-left: 50px; padding-right:50px; font-size:18px; font-weight:Bold;  font-family: Tahoma; text-align: center; }
@@ -106,6 +107,7 @@ a {
 .Lists li{ margin-bottom: 10px; margin-top: 25px; font-size: 18px; }
 .TrainLists li{ margin-bottom: 10px; font-size: 18px; font-weight: bold; color:  #30bb30}
 .TrainLists{margin-bottom: 50px;}
+.publists {text-align: justify;}
 .publists li{font-size: 18px; font-weight: bold; color:  #30bb30; font-size: 18px;}
 .publists table{background-color: #666866;}
 
