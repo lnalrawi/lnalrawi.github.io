@@ -183,3 +183,8 @@ a {
     font-size: 12px; /* Further reduce font size */
 }
 }
+
+img {
+  pointer-events: none;
+  user-drag: none;
+}
