@@ -28,9 +28,9 @@ table td{font-size: 16px; text-align: left;  vertical-align: top; padding-bottom
 
 h5{color: #0d294c; line-height: 150%; padding-top: 15px; padding-left: 50px; padding-right:50px; font-size:18px; font-weight:Bold;  font-family: Tahoma; text-align: center; }
 .weightResults{ width: 99%; background-color: #ffffff; color: #0d294c; height: 170px; border-radius: 5px; padding-left: 50px; margin-top: 10px; padding-top: 10px; }
-.sectionslabel {font-weight: bold; color: #30bb30; padding-top: 5px; margin-bottom: 10px;  font-size: 22px;}
+.sectionslabel {font-weight: bold; color: #30bb30; padding-top: 5px; margin-bottom: 10px;  font-size: 22px; text-align: justify;}
 .Bio {font-size: 16px; width: 98%; height: auto; color: #3f3e3e; text-align: justify;}
-.sectionslabelLi {font-size: 18px;}
+.sectionslabelLi {font-size: 18px; }
 
 /* NAVBAR STYLING STARTS */
 .navbar {
