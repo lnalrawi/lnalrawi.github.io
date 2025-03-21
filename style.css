@@ -190,13 +190,13 @@ a {
     font-size: 12px; /* Further reduce font size */
 }
 .menu {
-  gap: 0px; /* Reduce space further for small screens */
+  gap: 2px; /* Reduce space further for small screens */
 }
 .menu a {
   font-size: 12px;
 }
 .menu li {
-  padding: 0px 0px;
+  padding: 1px 2px;
 }
 }
 
