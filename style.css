@@ -175,12 +175,28 @@ a {
 .footer {
     font-size: 14px; /* Reduce font size on smaller screens */
 }
+.menu {
+  gap: 0px; /* Reduce space further for small screens */
+}
+.menu a {
+  font-size: 14px;
+  padding: 0px 0px;
+}
 }
 
 /* Media query for very small screens like mobile */
 @media (max-width: 480px) {
 .footer {
     font-size: 12px; /* Further reduce font size */
+}
+.menu {
+  gap: 0px; /* Reduce space further for small screens */
+}
+.menu a {
+  font-size: 12px;
+}
+.menu li {
+  padding: 0px 0px;
 }
 }
 
