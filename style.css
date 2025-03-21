@@ -39,6 +39,7 @@ h5{color: #0d294c; line-height: 150%; padding-top: 15px; padding-left: 50px; pad
   align-items: center;
   padding-right: 30px;
   padding-top: 15px;
+  justify-content: space-between;
 }
 .nav-links a {
   color: #30bb30;
@@ -84,6 +85,7 @@ h5{color: #0d294c; line-height: 150%; padding-top: 15px; padding-left: 50px; pad
 
 .menu li {
   padding: 5px 14px;
+  list-style: none;
 }
 
 /* DROPDOWN MENU */
@@ -176,11 +178,31 @@ a {
     font-size: 14px; /* Reduce font size on smaller screens */
 }
 .menu {
-  gap: 0px; /* Reduce space further for small screens */
+  display: none; /* Hide menu initially */
+  flex-direction: column;
+  background: #333;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
 }
 .menu a {
   font-size: 14px;
   padding: 0px 0px;
+}
+.menu-toggle {
+  display: block; /* Show hamburger icon */
+}
+
+.menu.show {
+  display: flex; /* Show menu when active */
+}
+/* HIDE MENU BY DEFAULT ON SMALL SCREENS */
+.menu-toggle {
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
 }
 }
 
@@ -190,13 +212,33 @@ a {
     font-size: 12px; /* Further reduce font size */
 }
 .menu {
-  gap: 2px; /* Reduce space further for small screens */
+  display: none; /* Hide menu initially */
+        flex-direction: column;
+        background: #333;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        padding: 10px 0;
 }
 .menu a {
   font-size: 12px;
 }
 .menu li {
   padding: 1px 2px;
+}
+.menu-toggle {
+  display: block; /* Show hamburger icon */
+}
+
+.menu.show {
+  display: flex; /* Show menu when active */
+}
+/* HIDE MENU BY DEFAULT ON SMALL SCREENS */
+.menu-toggle {
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
 }
 }
 

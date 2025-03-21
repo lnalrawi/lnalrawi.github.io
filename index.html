@@ -8,6 +8,7 @@
         <title>Layth Nabeel AlRawi</title>
         <link rel="icon" type="image/png" href="Resources/vr avatar - Copy.JPG">
         <link rel="stylesheet" href="style.css">
+
     </head>
     <body style="Background-color: #ffffff ">
         <div class="HeaderContainer">
@@ -20,6 +21,7 @@
                             </div>
                             <!-- NAVIGATION MENU -->
                             <div class="navbar">
+                                <div class="menu-toggle" onclick="toggleMenu()">☰</div> <!-- Hamburger Icon -->
                                 <ul class="nav-links-main">
                                 <!-- NAVIGATION MENUS -->
                                     <div class="menu-main">
@@ -194,4 +196,9 @@
             </div>
         </div>
     </body>
+    <script>
+        function toggleMenu() {
+            document.querySelector(".menu").classList.toggle("show");
+        }
+    </script>
 </html>
