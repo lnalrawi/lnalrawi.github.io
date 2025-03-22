@@ -205,34 +205,25 @@ a {
 .footer {
     font-size: 12px; /* Further reduce font size */
 }
-.menu {
-  display: none; /* Hide menu initially */
-        flex-direction: column;
-        background: white;
-        position: absolute;
-        top: 50px;
-        left: 0;
-        width: 100%;
-        padding: 10px 0;
-}
-.menu a {
-  font-size: 12px;
-}
-.menu li {
-  padding: 1px 2px;
+.footer {
+  font-size: 14px; /* Reduce font size on smaller screens */
 }
 .menu-toggle {
-  display: block; /* Show hamburger icon */
+display: block; /* Show only on mobile/tablets */
+background: none;
+border: none;
+font-size: 24px;
+cursor: pointer;
+color: #ffffff;
+}
+
+.menu {
+display: none; /* Hide menu initially on small screens */
+flex-direction: column;
 }
 
 .menu.show {
-  display: flex; /* Show menu when active */
-}
-/* HIDE MENU BY DEFAULT ON SMALL SCREENS */
-.menu-toggle {
-  font-size: 30px;
-  cursor: pointer;
-  color: white;
+display: flex; /* Show when toggled */
 }
 }
 
