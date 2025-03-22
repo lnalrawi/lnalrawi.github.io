@@ -20,6 +20,7 @@
                 </div>
                 <!-- NAVIGATION MENU -->
                  <div class="navbar">
+                    <div class="menu-toggle" onclick="toggleMenu()" >☰</div> <!-- Hamburger Icon -->
                     <ul class="nav-links">
                     <!-- NAVIGATION MENUS -->
                         <div class="menu">
@@ -85,4 +86,9 @@
             <div class="footer-right">Issue# 2 - Released On Wednesday, March 12, 2025</div>
         </div>
 </body>
+<script>
+    function toggleMenu() {
+        document.querySelector(".menu").classList.toggle("show");
+    }
+</script>
 </html>

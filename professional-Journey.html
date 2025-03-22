@@ -16,10 +16,11 @@
             <div class="container">
                 <!-- Content here -->
                 <div>
-                    <a class="navbar-brand"  href="index.html"> <img src="Resources/vr avatar.JPG" width="60px" height="60px" style="border-radius: 50%;"> LAYTH ALRAWI</a>
+                    <a class="navbar-brand"  href="index.html"> <img src="Resources/vr avatar.JPG" width="60px" height="60px" style="border-radius: 50%; "> LAYTH ALRAWI</a>
                 </div>
                 <!-- NAVIGATION MENU -->
                  <div class="navbar">
+                    <div class="menu-toggle" onclick="toggleMenu()" >☰</div> <!-- Hamburger Icon -->
                     <ul class="nav-links">
                     <!-- NAVIGATION MENUS -->
                         <div class="menu">
@@ -295,4 +296,9 @@
             <div class="footer-right">Issue# 2 - Released On Wednesday, March 12, 2025</div>
         </div>
     </body>
+    <script>
+        function toggleMenu() {
+            document.querySelector(".menu").classList.toggle("show");
+        }
+    </script>
 </html>

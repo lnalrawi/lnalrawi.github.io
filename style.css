@@ -172,37 +172,31 @@ a {
   padding-right: 20vw;
 }
 
+.menu-toggle {
+  display: none; /* Hide by default */
+}
+
 /* Media query for smaller screens */
 @media (max-width: 768px) {
 .footer {
     font-size: 14px; /* Reduce font size on smaller screens */
 }
-.menu {
-  display: none; /* Hide menu initially */
-  flex-direction: column;
-  background: #333;
-  position: absolute;
-  top: 50px;
-  left: 0;
-  width: 100%;
-  padding: 10px 0;
-}
-.menu a {
-  font-size: 14px;
-  padding: 0px 0px;
-}
 .menu-toggle {
-  display: block; /* Show hamburger icon */
+  display: block; /* Show only on mobile/tablets */
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.menu {
+  display: none; /* Hide menu initially on small screens */
+  flex-direction: column;
 }
 
 .menu.show {
-  display: flex; /* Show menu when active */
-}
-/* HIDE MENU BY DEFAULT ON SMALL SCREENS */
-.menu-toggle {
-  font-size: 30px;
-  cursor: pointer;
-  color: white;
+  display: flex; /* Show when toggled */
 }
 }
 
@@ -214,7 +208,7 @@ a {
 .menu {
   display: none; /* Hide menu initially */
         flex-direction: column;
-        background: #333;
+        background: white;
         position: absolute;
         top: 50px;
         left: 0;
@@ -246,3 +240,4 @@ img {
   pointer-events: none;
   user-drag: none;
 }
+
